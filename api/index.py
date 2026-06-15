@@ -15,9 +15,9 @@ logger = logging.getLogger(__name__)
 
 class GameInfo:
     def __init__(self):
-        self.TitleId: str = "8A822"  # Playfab Title Id
-        self.SecretKey: str = "7IZU6H9CDUQPCS81O4WJ84D4143DRFSBIQ7IA8G5CRM9573W4J"  # Playfab Secret Key
-        self.ApiKey: str = ""  # App Api Key (Oculus/Graph API)
+        self.TitleId: str = "49EFB"  # Playfab Title Id
+        self.SecretKey: str = "RUTX4Q3B3T1W9RK5PNZDPBMUF9IPXWQI9K3IJJOUMW9IEWUEJH"  # Playfab Secret Key
+        self.ApiKey: str = "OC|1186375167886799|ae1458c7c1021a1d0ece4f1db2633358"  # App Api Key (Oculus/Graph API)
 
     def get_auth_headers(self):
         return {"content-type": "application/json", "X-SecretKey": self.SecretKey}
